@@ -1,0 +1,15 @@
+
+{% include 'main/_embed/_menu/_mobile_menu.html.twig' %}
+
+            <header class="header">
+                <div class="container-fluid">
+                    <button class="mobile-menu-toggler" id="mobile_menu_toggler">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <a href="#" class="logotype">
+                        <img src="{{ asset('build/images/icons/logo_366x79.svg') }}" alt="RankedChoice Logotype">
+                    </a>
+                    {% include 'main/_embed/_menu/_desktop_menu.html.twig' %}
+                </div>
+            </header>
